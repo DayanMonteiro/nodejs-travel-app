@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-travel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@prisma/client": "^5.16.2",
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "prisma": "^5.16.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "dev": "tsx watch  src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayanMonteiro/nodejs-travel-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DayanMonteiro/nodejs-travel-app/issues"
+  },
+  "homepage": "https://github.com/DayanMonteiro/nodejs-travel-app#readme"
+}
