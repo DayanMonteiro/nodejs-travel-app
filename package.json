@@ -20,7 +20,7 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "dev": "tsx watch  src/server.ts"
+    "dev": "tsx watch --env-file .env src/server.ts"
   },
   "repository": {
     "type": "git",
